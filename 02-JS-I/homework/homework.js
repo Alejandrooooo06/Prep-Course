@@ -4,19 +4,19 @@
 const nuevaString = 'Hola';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = '7';
+const nuevoNum = 7 ;
 
 // Crea una variable booleana:
-const nuevoBool = 'true';
+const nuevoBool = true ;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - '5' === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * '4' === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === '4,2';
+const nuevoModulo = 21 % 5 === 4.2;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -78,7 +78,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return Hola . longitud === Holas . longitud;  
+    return Hola, length == Hola, length ;
   
 }
 
@@ -86,6 +86,11 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+  if ( 20 < 90) {
+    return  true;
+    } else {
+    return  false;   
+    }
   
 }
 
